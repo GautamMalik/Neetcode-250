@@ -36,24 +36,25 @@ public class DesignHashset {
         }
         return false;
     }
-}
 
-class DesignHashsetBruteForce {
-    boolean[] arr;
+    private static class DesignHashsetBruteForce {
+        boolean[] arr;
 
-    public DesignHashsetBruteForce() {
-        arr = new boolean[1000000];
+        public DesignHashsetBruteForce() {
+            arr = new boolean[1000000];
+        }
+
+        public void add(int key) {
+            arr[key] = true;
+        }
+
+        public void remove(int key) {
+            arr[key] = false;
+        }
+
+        public boolean contains(int key) {
+            return arr[key];
+        }
     }
 
-    public void add(int key) {
-        arr[key] = true;
-    }
-
-    public void remove(int key) {
-        arr[key] = false;
-    }
-
-    public boolean contains(int key) {
-        return arr[key];
-    }
 }

@@ -1,4 +1,4 @@
-package ArrayString.ManipulationAndHashing;
+package ArrayString.PrefixSum;
 
 // ques: https://neetcode.io/problems/subarray-sum-equals-k/question?list=neetcode250
 

@@ -1,4 +1,4 @@
-package GameTheory;
+package DP.GameTheory;
 // ques: https://leetcode.com/problems/guess-number-higher-or-lower-ii/description/?envType=problem-list-v2&envId=game-theory
 
 import java.util.Arrays;

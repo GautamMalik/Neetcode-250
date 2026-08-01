@@ -1,4 +1,4 @@
-package GameTheory;
+package DP.GameTheory;
 
 // ques: https://leetcode.com/problems/stone-game/description/?envType=problem-list-v2&envId=game-theory
 

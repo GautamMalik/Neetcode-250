@@ -1,4 +1,4 @@
-package GameTheory;
+package DP.GameTheory;
 // ques:  https://leetcode.com/problems/predict-the-winner/description
 
 // Game theory logic ->>>  minimax or maximin
